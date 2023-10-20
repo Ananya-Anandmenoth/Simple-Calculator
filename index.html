@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="main-body"></div>
+    <div class="calc">
+        <div class="output">
+
+            <input type="text" id="screen">
+
+        </div>
+        <div class="buttons">
+
+            <div class="row">
+                <button onclick="clearDisplay('C')" class="pressKeys"><strong>C</strong></button>
+                
+            </div>
+
+            <div class="row">
+                <button onclick="buttonClick(7)" class="pressKeys">7</button>
+                <button onclick="buttonClick(8)" class="pressKeys">8</button>
+                
+                <button onclick="buttonClick(9)" class="pressKeys">9</button>
+                <button onclick=" buttonClick('*')" class="mathOp"><strong>x</strong></button>
+               
+            </div>
+
+            <div class="row">
+
+                <button onclick="buttonClick(4)" class="pressKeys">4</button>
+                <button onclick="buttonClick(5)" class="pressKeys">5</button>
+                <button onclick="buttonClick(6)" class="pressKeys">6</button>
+                <button onclick="buttonClick('-')" class="mathOp"><strong>&#8722;</strong></button>
+
+            </div>
+            <div class="row">
+                <button onclick="buttonClick(1)" class="pressKeys">1</button>
+                <button onclick="buttonClick(2)" class="pressKeys">2</button>
+                <button onclick="buttonClick(3)" class="pressKeys">3</button>
+                <button onclick="buttonClick('+')" class="mathOp"><strong>&#43;</strong></button>
+            </div>
+
+            <div class="row">
+                <button onclick="buttonClick('.')" class="pressKeys"><strong>&#8729;</strong></button>
+                <button onclick="buttonClick(0)" class="pressKeys">0</button>
+                <button onclick="buttonClick('+ / -')" class="pressKeys"><strong>&#177;</strong></button>
+                <button onclick="equalClick()" class="mathOp"><strong>&#61;</strong></button>
+            </div>
+        </div>
+    </div>
+    
+       
+    
+    
+</body>
+</html>
